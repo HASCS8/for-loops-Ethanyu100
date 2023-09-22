@@ -1,14 +1,15 @@
 def print_fruits():
     # Your task is to create a list of 5 fruits and use a for loop to iterate over the list and print each fruit.
-    pass
-
+    fruits_list=['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry']
+    for fruit in fruits_list:
+        print(fruit)
+    
 def main():
     print_fruits()
 
 # Unit tests
 def test_print_fruits():
     fruits_list = ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry']
-    
     import sys
     from io import StringIO
 
