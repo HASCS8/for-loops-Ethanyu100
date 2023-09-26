@@ -4,8 +4,9 @@ def print_rectangle():
     # ***
     # ***
     # ***
-    pass
-
+    text ="rectangle" 
+    from io import StringIO
+    print (print_rectangle)
 def main():
     print_rectangle()
 
@@ -23,3 +24,29 @@ def test_print_rectangle():
 if __name__ == '__main__':
     main()
     test_print_rectangle()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
