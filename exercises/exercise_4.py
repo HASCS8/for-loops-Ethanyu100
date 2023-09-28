@@ -4,9 +4,9 @@ def print_rectangle():
     # ***
     # ***
     # ***
-    text ="rectangle" 
-    from io import StringIO
-    print (print_rectangle)
+    for i in range(3):
+        print("***")
+
 def main():
     print_rectangle()
 
