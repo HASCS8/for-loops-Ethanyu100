@@ -4,7 +4,8 @@ def print_rectangle():
     # ***
     # ***
     # ***
-    pass
+    for i in range(3):
+        print("***")
 
 def main():
     print_rectangle()
@@ -23,3 +24,29 @@ def test_print_rectangle():
 if __name__ == '__main__':
     main()
     test_print_rectangle()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
